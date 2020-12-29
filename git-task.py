@@ -4,3 +4,8 @@ zakupy_dict = {
     "piekarnia": ["chleb","pączek","bułki"],
     "warzywniak": ["marchew","seler","rukola"]
 }
+
+for sklep, produkty in zakupy_dict.items():
+    print(sklep, ":", produkty)
+
+    print(f"Idę do ",(sklep),"kupuję tu następujące rzeczy", (produkty))
