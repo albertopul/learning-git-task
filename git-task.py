@@ -8,4 +8,4 @@ zakupy_dict = {
 for sklep, produkty in zakupy_dict.items():
     print(sklep, ":", produkty)
 
-    print(f"Idę do ",(sklep),"kupuję tu następujące rzeczy", (produkty))
+    print(f"Idę do ",(sklep.capitalize()),"kupuję tu następujące rzeczy", (produkty))
